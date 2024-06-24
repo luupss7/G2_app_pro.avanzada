@@ -16,3 +16,7 @@ plt.title('Disposición Final Adecuada por Departamento')
 plt.xticks(rotation=90) 
 plt.tight_layout()  
 plt.show()
+
+data = pd.read_csv(file_path, encoding='latin1')
+print(data.head())
+
